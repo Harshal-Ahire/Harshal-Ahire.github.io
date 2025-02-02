@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshal A. - Portfolio</title>
+    
+    <!-- Google Fonts: Open Sans Light, Poppins, Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@400&family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+
+        /* Name Style (Poppins Regular) */
+        .name {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 22px;
+            color: black;
+        }
+
+        /* Navigation */
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 300;
+            color: black;
+            transition: color 0.3s ease;
+        }
+
+        .nav a:hover {
+            color: gray;
+        }
+
+        /* Main Container */
+        .container {
+            display: flex;
+            justify-content: space-between;  /* Split 50/50 */
+            align-items: flex-start;
+            padding: 20px 50px;
+            margin-top: 1cm; /* Added margin to push the content down 3cm */
+        }
+
+        /* Left Side - Content */
+        .content {
+            font-family: 'Open Sans', sans-serif; /* Use Open Sans Light for paragraph text */
+            font-weight: 300; /* Light weight */
+            font-size: 17px;
+            line-height: 1.6;
+            color: black;
+            max-width: 50%; /* 50% width for the content */
+        }
+
+        .content i {
+            font-style: italic;
+        }
+
+        .content .bold-italic {
+            font-weight: 700; /* Bold style using Montserrat Bold */
+            font-style: italic; /* Italic style */
+        }
+
+        /* Italic Name */
+        .italic-name {
+            font-style: italic;
+        }
+
+        /* Bolded Name */
+        .bold-name {
+            font-weight: 700;
+        }
+
+        /* Right Side (Empty Space) */
+        .empty-space {
+            max-width: 50%; /* 50% width for the empty space */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="name">Harshal A.</div>
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+        </div>
+    </div>
+
+    <!-- Main Container for Content -->
+    <div class="container">
+        <!-- Content Section -->
+        <div class="content">
+            <p>Hi, I'm <span class="bold-italic">Harshal Ahire</span>, an aspiring ML Engineer pursuing my bachelor's in Artificial Intelligence & Machine Learning.</p>
+
+            <p>My curiosity for AI sparked when I saw how machines could recognize objects in images—whether a car, a fruit, or even a spacecraft. It felt like magic, but I soon realized it was driven by <span class="bold-italic">Data</span>, <span class="bold-italic">Algorithms</span>, and <span class="bold-italic">Math</span> behind it.</p>
+
+            <p>To learn about AI, I started picking up the tools and concepts behind machine learning. I explored real-world problems, beginning with projects in <span class="bold-italic">Computer Vision</span> and <span class="bold-italic">Classification</span>. As my understanding grew, I moved on to explore more advanced areas, like <span class="bold-italic">Deep learning</span>, <span class="bold-italic">Transformers</span>, and <span class="bold-italic">Generative models</span>, constantly excited to push the boundaries of what’s possible.</p>
+        </div>
+        </div>
+
+        <!-- Empty Space Section (No photo) -->
+        <div class="empty-space">
+            <!-- This area remains empty with 50% of the screen width -->
+        </div>
+    </div>
+
+</body>
+</html>
